@@ -1,0 +1,23 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content pagina.html -o sass/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rusogg/Curso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rusogg/Curso/issues"
+  },
+  "homepage": "https://github.com/rusogg/Curso#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
